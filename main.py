@@ -28,7 +28,28 @@ import time
 
 #=============================================================================
 #Chrome size 90%
-a = ['2661','4766','3591','4766','4690','2938','2200','6109','6111','6225','6224','4900','2993','2938','4690']
+a = ['3673',
+'2674',
+'4232',
+'2906',
+'3239',
+'4708',
+'6251',
+'1849',
+'2998',
+'2868',
+'3098',
+'2197',
+'4773',
+'2751',
+'4041',
+'5658',
+'2820',
+'2858',
+'2821',
+'3157',
+'3151',
+'3155']
 it = iter(a)  # создаём итератор из списка
 while True:
     try:
@@ -41,6 +62,7 @@ while True:
         pyautogui.press('enter')
         pyautogui.moveTo(x=-1652, y=524)
         pyautogui.click()
+        pyautogui.PAUSE = 0.2
         pyautogui.moveTo(x=-1431, y=467)
         pyautogui.click()
         pyautogui.write('promo')
@@ -50,29 +72,30 @@ while True:
         pyautogui.click()
         pyautogui.moveTo(x=-1214, y=561)
         pyautogui.click()
-        pyautogui.moveTo(x=-1122, y=734)
+        pyautogui.moveTo(x=-1060, y=740)
         pyautogui.click()  # остановись на дате 24.11 число
-        pyautogui.moveTo(x=-1093, y=743)
+        pyautogui.moveTo(x=-1019, y=742)
         pyautogui.click()    #Klika na 25
         # pyautogui.moveTo(x=-1162, y=603)
         # pyautogui.click()
         # pyautogui.moveTo(x=-1206, y=648)
-        # pyautogui.click()promo
+        # pyautogui.click()
         pyautogui.moveTo(x=-1199, y=660)
         pyautogui.click()
         pyautogui.moveTo(x=-1228, y=743)
         pyautogui.click()
         pyautogui.moveTo(x=-1111, y=669)
         pyautogui.click()
-        pyautogui.write("7")              #zniżka procentowa
+        pyautogui.write("30")              #zniżka procentowa
         pyautogui.moveTo(x=-1181, y=741)
         pyautogui.click()
-        # pyautogui.moveTo(x=-1246, y=715)
-        # pyautogui.click()
-        # pyautogui.moveTo(x=-1206, y=853)
-        # pyautogui.click()
-        # pyautogui.moveTo(x=-1235, y=790)
-        # pyautogui.click()
+        pyautogui.moveTo(x=-1246, y=715)
+        pyautogui.click()
+        pyautogui.moveTo(x=-1206, y=853)
+        pyautogui.click()
+        pyautogui.moveTo(x=-1235, y=790)
+        pyautogui.click()
+        pyautogui.PAUSE = 1
         pyautogui.moveTo(x=-1048, y=886)
         pyautogui.click()
         time.sleep(2)

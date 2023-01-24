@@ -1,0 +1,31 @@
+import pyautogui
+import time
+
+
+while True:
+          time.sleep(1)
+          pyautogui.moveTo(x=-1750, y=380)
+          time.sleep(1)
+          pyautogui.click()
+          time.sleep(1)
+          pyautogui.moveTo(x=-1710, y=166)
+          time.sleep(1)
+          pyautogui.click()
+          pyautogui.write("M")
+          time.sleep(1)
+          pyautogui.moveTo(x=-1457, y=416)
+          time.sleep(2)
+          pyautogui.click()
+          time.sleep(1)
+          pyautogui.moveTo(x=-1850, y=380)
+          time.sleep(1)
+          pyautogui.click()
+          time.sleep(1)
+          pyautogui.moveTo(x=-1110, y=166)
+          time.sleep(1)
+          pyautogui.click()
+          pyautogui.write("W")
+          time.sleep(1)
+          pyautogui.moveTo(x=-1427, y=416)
+          time.sleep(2)
+          pyautogui.click()
